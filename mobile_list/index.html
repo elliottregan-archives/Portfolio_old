@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  		<meta charset="utf-8" />
+      <title>Program</title>
+      <link rel="stylesheet" href="css/revo_custom.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <script type="text/javascript">
+      
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30884823-1']);
+        _gaq.push(['_trackPageview']);
+      
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      
+      </script>
+    </head>
+    <body>
+      <header>
+          <h3>Program</h3>
+          <a id="patients" class="btn">Patients</a>
+          <a id="home" class="btn right">Home</a>
+      </header>
+      <div id="content">
+    	  <ul id="list">
+    	    <li>
+    	      <a href="#"><div class="state"><div class="state_bg"></div></div>Video One</a>
+  	        <ul class="drop_down">
+  	          <li class="watch" data-video-id="1" data-file-name="vid1" data-title="...">Watch</li>
+  	          <li class="info" data-video-id="1" data-file-name="vid1" data-title="...">
+  	            <dl>
+  	              <dt>Sets:</dt>
+  	              <dd>5</dd>
+  	              <dt>Hold:</dt>
+  	              <dd>30s</dd>
+  	              <dt>Days/Wk:</dt>
+  	              <dd>5</dd>
+  	            </dl>
+  	          </li>
+  	          <li class="delete" data-video-id="1" data-file-name="vid1" data-title="...">Delete</li>
+  	        </ul>
+    	    </li>
+    	    <li>
+    	      <a href="#"><div class="state"><div class="state_bg"></div></div>Video Two</a>
+    	      <ul class="drop_down">
+    	        <li class="watch" data-video-id="2" data-file-name="vid2" data-title="...">Watch</li>
+    	        <li class="info" data-video-id="2" data-file-name="vid2" data-title="...">
+    	          <dl>
+    	            <dt>Sets:</dt>
+    	            <dd>5</dd>
+    	            <dt>Hold:</dt>
+    	            <dd>30s</dd>
+    	            <dt>Days/Wk:</dt>
+    	            <dd>5</dd>
+    	          </dl>
+    	        </li>
+    	        <li class="delete" data-video-id="2" data-file-name="vid2" data-title="...">Delete</li>
+    	      </ul>
+    	    </li>
+    	    
+    	  </ul>
+      </div>
+      <footer>
+          <a id="add" class="btn">+ Add Exercise</a>
+      </footer>
+      <div id="overlay"></div>
+    </body>
+</html>
